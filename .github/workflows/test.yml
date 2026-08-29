@@ -23,7 +23,7 @@ jobs:
             -w '\n\n========== TIMING ==========\nDNS:        %{time_namelookup}s\nConnect:    %{time_connect}s\nTLS:        %{time_appconnect}s\nTTFB:       %{time_starttransfer}s\nTotal:      %{time_total}s\n============================\n' \
             https://integrate.api.nvidia.com/v1/chat/completions \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer YOUR_API_KEY" \
+            -H "Authorization: Bearer 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" \
             -d '{
               "model": "moonshotai/kimi-k3",
               "messages": [
